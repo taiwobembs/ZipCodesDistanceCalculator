@@ -1,4 +1,4 @@
-# voterapp_UI
+# zipCode Calculator
 
 ## Project setup
 
