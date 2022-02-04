@@ -9,9 +9,6 @@ use Tests\TestCase;
 class AppTest extends TestCase
 {
 
-
-$prefix = "/v1/";
-
     public function test_getZipCodes()
     {
         $response = $this->get('/api/v1/getZipCodes');
@@ -23,4 +20,6 @@ $prefix = "/v1/";
         $response = $this->get('/api/v1/getZipCode/1');
         $this->assertEquals(200, $response->status());
     }
+
+
 }
